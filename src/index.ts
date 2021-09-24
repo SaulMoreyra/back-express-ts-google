@@ -14,7 +14,7 @@ app.set("port", port);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(/^\/(?!api).*/, (req, res) => {
-  const indexPath = path.join(__dirname, "..", "public", "index.html");
+  const indexPath = path.join(__dirname, "public", "index.html");
   res.sendFile(indexPath);
 });
 
