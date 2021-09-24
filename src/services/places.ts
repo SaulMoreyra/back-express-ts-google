@@ -5,7 +5,7 @@ const BASE_URL = `https://maps.googleapis.com/maps/api/place/autocomplete/json`;
 const API_KEY = process.env.GOOGLE_API_KEY;
 
 const DEFAULT_PARAMS = {
-  types: "address",
+  types: "geocode",
   components: "country:mx", // ONLY PLACES FROM MEXICO
   key: API_KEY,
 };
