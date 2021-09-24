@@ -1,5 +1,5 @@
 import axios from "axios";
-import utils from "../../src/utils";
+import utils from "../utils";
 
 const BASE_URL = `https://maps.googleapis.com/maps/api/place/details/json`;
 const API_KEY = process.env.GOOGLE_API_KEY;
